@@ -30,3 +30,10 @@ def create_user(user: User):
     # Agregar el nuevo usuario a la lista
     users.append(user)
     return user
+
+# Si no se encuentra el usuario, devolver un error 404
+    raise HTTPException(status_code=404, detail="Usuario no encontrado")
+
+@app.get("/users/", response_model=list[User])
+def get_all_users():
+    return users
