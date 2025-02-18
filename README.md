@@ -24,7 +24,7 @@ Obtiene la lista de todos los usuarios creados
 ## Configuración del entorno
 
 1. Clonar el repositorio:
-git clone git@github.com:MariaMoroney/mlopsHomewroks.git
+git clone https://github.com/MariaMoroney/mlopsHomewroks.git
 cd api-users-tp2
 
 2. Crear y activar entorno virtual:
